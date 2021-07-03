@@ -1,5 +1,5 @@
-import java.util.*;
-import java.io.*;
+import java.util. *;
+import java.io. *;
 
 public class Tree {
     Node root;
@@ -21,6 +21,7 @@ public class Tree {
             }
         }
         sum +=value;
+
         if (parent == null) {
             root = nod;
         }
