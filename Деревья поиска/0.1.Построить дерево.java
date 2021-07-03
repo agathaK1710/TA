@@ -30,8 +30,6 @@ public class Tree {
 
         }
     }
-
-
     private void PreLeftOrder (Node node, FileWriter writer) throws IOException {
         Stack<Node> container = new Stack<Node>();
         while (true) {
