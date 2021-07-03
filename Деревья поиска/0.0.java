@@ -21,7 +21,6 @@ public class Tree {
             }
         }
         sum +=value;
-
         if (parent == null) {
             root = nod;
         }
