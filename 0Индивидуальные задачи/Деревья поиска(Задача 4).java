@@ -2,7 +2,6 @@ import java.util.*;
 import java.io.*;
 
 public class Tree implements Runnable {
-
     static Node root;
     ArrayList<Node> arrList = new ArrayList<>();
     static ArrayList<Integer> list = new ArrayList<>();
